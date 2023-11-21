@@ -1,2 +1,2 @@
 # Prueba-tecnica-QA-Junior-
-Prueba Técnica QAJunior
+Realización prueba tecnica 
