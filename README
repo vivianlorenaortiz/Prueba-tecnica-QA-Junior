@@ -1,0 +1,13 @@
+Install requirements
+
+pip install -r requirements.txt
+
+#Instalar las dependencias que se necesitan
+
+pip install -r requirements.txt
+
+#Ejecutar el proyecto
+
+Todos los test en consola comando "behave"
+
+Un solo feature en consola "behave features/login.feature"

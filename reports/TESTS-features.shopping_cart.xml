@@ -1,0 +1,12 @@
+<testsuite name="features.shopping_cart.Carrito de compras" tests="1" errors="0" failures="0" skipped="0" time="5.126098" timestamp="2023-11-21T04:35:13.952567" hostname="MacBook-Air-de-Cris.local"><testcase classname="features.shopping_cart.Carrito de compras" name="Como usuario quiero eliminar un producto en el carrito de compras para disminuir el valor de compra" status="passed" time="5.126098"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Como usuario quiero eliminar un producto en el carrito de compras para disminuir el valor de compra
+    Given que el usuario "standard_user" con la contraseña "secret_sauce" tengo mas de un producto en el carro de compras ... passed in 4.381s
+    When elimino un producto del carrito ... passed in 0.460s
+    Then el producto deberia ser eliminado y el total de la compra deberia actualizarse ... passed in 0.284s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

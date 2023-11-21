@@ -1,0 +1,45 @@
+<testsuite name="features.login.Ingreso de usuarios" tests="4" errors="0" failures="0" skipped="0" time="20.661462" timestamp="2023-11-21T04:35:04.426106" hostname="MacBook-Air-de-Cris.local"><testcase classname="features.login.Ingreso de usuarios" name="Como usuario quiero realizar el login para acceder al Home -- @1.1 " status="passed" time="4.178845"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Como usuario quiero realizar el login para acceder al Home -- @1.1 
+    Given estoy en la pagina de inicio de sesion ... passed in 3.182s
+    When ingreso el "standard_user" y la contraseña "secret_sauce" haciendo click en el boton de inicio de sesion ... passed in 0.756s
+    Then ver la pagina del inventario de productos ... passed in 0.240s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="features.login.Ingreso de usuarios" name="Como usuario quiero realizar el login para acceder al Home -- @1.2 " status="passed" time="3.863121"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Como usuario quiero realizar el login para acceder al Home -- @1.2 
+    Given estoy en la pagina de inicio de sesion ... passed in 2.970s
+    When ingreso el "problem_user" y la contraseña "secret_sauce" haciendo click en el boton de inicio de sesion ... passed in 0.614s
+    Then ver la pagina del inventario de productos ... passed in 0.280s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="features.login.Ingreso de usuarios" name="Como usuario quiero realizar el login para acceder al Home -- @1.3 " status="passed" time="8.757207"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Como usuario quiero realizar el login para acceder al Home -- @1.3 
+    Given estoy en la pagina de inicio de sesion ... passed in 2.883s
+    When ingreso el "performance_glitch_user" y la contraseña "secret_sauce" haciendo click en el boton de inicio de sesion ... passed in 5.626s
+    Then ver la pagina del inventario de productos ... passed in 0.248s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="features.login.Ingreso de usuarios" name="Como usuario quiero realizar el login para acceder al Home -- @1.4 " status="passed" time="3.862289"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario Outline: Como usuario quiero realizar el login para acceder al Home -- @1.4 
+    Given estoy en la pagina de inicio de sesion ... passed in 2.972s
+    When ingreso el "visual_user" y la contraseña "secret_sauce" haciendo click en el boton de inicio de sesion ... passed in 0.639s
+    Then ver la pagina del inventario de productos ... passed in 0.251s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>

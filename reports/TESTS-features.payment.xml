@@ -1,0 +1,12 @@
+<testsuite name="features.payment.Proceso de pago" tests="1" errors="0" failures="0" skipped="0" time="4.385473" timestamp="2023-11-21T04:35:08.818390" hostname="MacBook-Air-de-Cris.local"><testcase classname="features.payment.Proceso de pago" name="Como usuario quiero realizar una compra para pagar el producto" status="passed" time="4.385473"><system-out>
+<![CDATA[
+@scenario.begin
+  Scenario: Como usuario quiero realizar una compra para pagar el producto
+    Given que el usuario "standard_user" con la contraseña "secret_sauce" ha agregado productos al carrito ... passed in 3.730s
+    When un usuario ingreso los datos de pago durante el checkout ... passed in 0.455s
+    Then el sistema deberia confirmar la recepcion de la orden ... passed in 0.201s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase></testsuite>
